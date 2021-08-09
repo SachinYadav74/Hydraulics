@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineers Point | Hydraulics</title>
+    <link rel="stylesheet" href="/mycss/hydraulics.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="phone.css">
+
+</head>
+
+<body>
+    <navbar id="navbar">
+        <div id="Logo_hamburger">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+        <div id="nonnavbar">
+            <img src="logo.png" alt="engineerspoint.com">
+            <ul>
+                <li><a href="/MyHtml/home.html">Home</a></li>
+                <li><a href="/MyHtml/extras.html">Calculate</a></li>
+                <li><a href="/MyHtml/formulas.html">Formulas</a></li>
+                <li><a href="/MyHtml/Quesans.html">Ques&Ans</a></li>
+            </ul>
+        </div>
+        <div id="hamburger">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <div>
+                        <div class="content">
+                            <li><a href="">Content</a></li>
+                            <li><a href="/MyHtml/mechanical_home.html">Mechanical</a></li>
+                            <li><a href="/MyHtml/electrical_home.html">Electrical</a></li>
+                            <li><a href="/MyHtml/pneumatics_home.html">Pneumatics</a></li>
+                            <li><a href="/MyHtml/electropneumatic_hompage.html">Electropneumatics</a></li>
+                            <li><a href="/MyHtml/hydraulics_homepage.html">Hydraulics</a></li>
+                        </div>
+                        <div class="content">
+                            <li><a href="#advantages">Advantages</a></li>
+                            <li><a href="#disadvantages">Disadvantages</a></li>
+                            <li><a href="#circuit">Circuit</a></li>
+                            <li><a href="#components">Components</a></li>
+                        </div>
+                        <div class="content">
+                            <li><a href="/MyHtml/extras.html">Unit Conversions</a></li>
+                            <li><a href="/MyHtml/extras.html">Area </a></li>
+                            <li><a href="/MyHtml/extras.html">Volume</a></li>
+                            <li><a href="/MyHtml/extras.html">Mass</a></li>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("myNav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav").style.width = "0%";
+                    }
+                </script>
+            </div>
+    </navbar>
+    <section id="home">
+            <div id="full_page_content">
+                Content
+                <div class="content">
+                    <li><a href="/MyHtml/mechanical_home.html">Mechanical</a></li>
+                    <li><a href="/MyHtml/electrical_home.html">Electrical</a></li>
+                    <li><a href="/MyHtml/pneumatics_home.html">Pneumatics</a></li>
+                    <li><a href="/MyHtml/electropneumatic_hompage.html">Electropneumatics</a></li>
+                    <li><a href="/MyHtml/hydraulics_homepage.html">Hydraulics</a></li>
+                </div>
+                <div class="content">
+                    <li><a href="#advantages">Advantages</a></li>
+                    <li><a href="#disadvantages">Disadvantages</a></li>
+                    <li><a href="#circuit">Circuit</a></li>
+                    <li><a href="#components">Components</a></li>
+                </div>
+                <div class="content">
+                    <li><a href="/MyHtml/extras.html">SI Unit </a></li>
+                    <li><a href="/MyHtml/extras.html">Area</a></li>
+                    <!-- <li><a href="">Basic Trignometry</a></li> -->
+                    <li><a href="/MyHtml/extras.html">Volume</a></li>
+                    <li><a href="/MyHtml/extras.html">Mass</a></li>
+                    <li><a href="/MyHtml/extras.html">Formulas</a></li>
+                </div>
+            </div>
+        <div id="hello">
+            <h1 class="hprimary">Welcome Engineers</h1>
+            <div id="intro">
+                <p>Hello all !!! <br>
+                    I warmly welcome you all to Engineers Point Hydraulics Page. If you have gone through pneumatics
+                    you might have known that pnemuatics has limitaion of force. It can lift weight only till some
+                    thousands
+                    of Newtons. But Hydraulics Has wide range of output power. Hence for heavy machines like JCB,
+                    Cranes, Submarines
+                    use Hydraulics system. It has some drawback too. Let's discuss them briefly.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="advantages">
+            <div>Advantages</div>
+            <li>High Pressure and high stroke length availabel.</li>
+            <li>Higher accuracy</li>
+            <li>Self Lubricating</li>
+            <li>Load independent movement</li>
+            <li>Éasy power transmission with small components.</li>
+        </div>
+        <div id="disadvantages" style="font-weight: bold;">
+            <div>Disadvantages</div>
+            <li>Frequent Maintenance</li>
+            <li>Pollution causin</li>
+            <li>Dirt Infected</li>
+            <li>Temperatuer Dependent</li>
+        </div>
+    </section>
+    <section>
+        <div id="circuit">
+            <h3>Hydraulics Safety Circuit</h3>
+            <p>
+                <li>Non return valve</li>
+            <p>It ensure that the hydraulic oil does not creates pressure on motor if load is excessive then limit.</p>
+            <li>Pressure relief valve</li>
+            <p>It ensure that the hydraulic pressure is not build more than required.</p>
+            <li>Direction Control Valve</li>
+            <p>Controls the cylinder direction</p>
+            <li>Filter</li>
+            <p>Filters the incoming oil from the circuit and send back to the tank.</p>
+            </p>
+        </div>
+        <div>
+            <h3>Hydraulic Oil</h3>
+            <p>Hydrualic oil is designated as per DIN standard DIN51524 and DIN51525
+                eg. HLP68
+                <li>Here H is Hydraulic oil</li>
+                <li> L defines that the oil protects against corrosion</li>
+                <li>P defines Protection against wear and tear.</li>
+                <li>68 is the viscosity index.</li>
+            </p>
+            <h3>viscosity Index</h3>
+            <p>viscosity index defines greater the index smaller is the change in viscosity for a given temperature</p>
+        </div>
+    </section>
+    <section>
+        <div id="components">
+            <h2>Componenets</h2>
+            <h3>Valves</h3>
+            <div id="components">
+                <div>
+                    <li>Accumulator</li>
+                    <img src="accumulator.JPG" alt="">
+                </div>
+                <div>
+                    <li>Flow Divider</li>
+                    <img src="flowdivider.JPG" alt="">
+                </div>
+                <div>
+                    <li>Check Valve</li>
+                    <img src="pilotoperated checkvalave.JPG" alt="">
+                </div>
+                <div>
+                    <li>Pressure regulator</li>
+                    <img src="pressure regulator.JPG" alt="">
+                </div>
+                <div>
+                    <li>Pressure relief</li>
+                    <img src="pressurerelief valve.JPG" alt="">
+                </div>
+                <div>
+                    <li>Two way flow control valve</li>
+                    <img src="twowayflowcontrolvalve.JPG" alt="">
+                </div>
+                <div>
+                    <li>Mid position Pump bypass</li>
+                    <img src="midpositionpummpbypass.JPG" alt="">
+                </div>
+                <div>
+                    <li>Mid position floating</li>
+                    <img src="midpositionfloatingcenter.JPG" alt="">
+                </div>
+                <div>
+                    <li>Mid position close</li>
+                    <img src="midpositionclose.JPG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div id="overview">
+            <h1>Overview</h1>
+            <div id="overview_content">
+                <div class="overview_elements">
+                    <h2> <a href="">Mechanical</a></h2>
+                    <li><a href="">Drilling</a></li>
+                    <li><a href="">Milling</a></li>
+                    <li><a href="">Turning</a></li>
+                    <li><a href="">CNC</a></li>
+                    <li><a href="">Tolerance</a></li>
+                    <li><a href="">Engineerign Drawings</a></li>
+                    <li><a href="">Catia Desiging</a></li>
+                    <!-- <li><a href="">Catia</a></li> -->
+                </div>
+                <div class="overview_elements">
+                    <h2> <a href="">Electrical</a></h2>
+                    <li><a href="">Electrical Safety Desiging</a></li>
+                    <li><a href="">Basic Wirings</a></li>
+                    <li><a href="">Logical Wiring</a></li>
+                    <li><a href="">Componenets</a></li>
+                    <li><a href="">Circuit Challenge</a></li>
+                    <li><a href="">VIR calculations</a></li>
+                    <li><a href="">Power Calculation</a></li>
+                </div>
+                <div class="overview_elements">
+                    <h2> <a href="">Pneumatics</a></h2>
+                    <li><a href="">Basic Safety</a></li>
+                    <li><a href="">Working Principle</a></li>
+                    <li><a href="">Components</a></li>
+                    <li><a href="">Circuit desiging</a></li>
+                    <li><a href="">Circuit Challenge</a></li>
+                    <li><a href="">Cylinder force Calculation</a></li>
+                    <li><a href="">Pneumatics Cascading</a></li>
+                </div>
+                <div class="overview_elements">
+                    <h2> <a href="">Electropneumatics</a></h2>
+                    <li><a href="">Basic Safety</a></li>
+                    <li><a href="">Solenoids</a></li>
+                    <li><a href="">Reed Switches</a></li>
+                    <li><a href="">Circuit making</a></li>
+                    <li><a href="">Circuit Challenge</a></li>
+                </div>
+                <div class="overview_elements">
+                    <h2> <a href="">Hydraulics</a></h2>
+                    <li><a href="">Basic Safety</a></li>
+                    <li><a href="">Hydraulics Pipes</a></li>
+                    <li><a href="">Pumps</a></li>
+                    <li><a href="">Hydraulic oils</a></li>
+                    <li><a href="">Hydraulics Circuits</a></li>
+                    <li><a href="">Circuit Challenge</a></li>
+                    <li><a href="">Componenets</a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center2">
+            Copyright &copy. All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
